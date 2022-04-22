@@ -32,6 +32,6 @@ WORKDIR /usr/src
 
 COPY --from=builder ["/usr/src/target/app.jar", "/usr/src/"]
 
-EXPOSE 8089
+EXPOSE 3000
 
 CMD ["java","-jar", "/usr/src/app.jar"]
