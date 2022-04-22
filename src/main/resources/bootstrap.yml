@@ -1,0 +1,13 @@
+# Swagger openapi.docs custom path
+springdoc:
+  api-docs:
+    path: api/docs
+    enabled: true
+  swagger-ui:
+    path: api/docs/ui
+    enabled: true
+  show-actuator: true
+
+# Tomcat Server Port
+server:
+  port: 3000
