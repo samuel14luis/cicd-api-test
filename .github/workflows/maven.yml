@@ -39,4 +39,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: samuel14luis/ci-cd-api-test:0.0.1-SNAPSHOT-$(date +%s)
+        tags: samuel14luis/ci-cd-api-test:0.0.1-SNAPSHOT
