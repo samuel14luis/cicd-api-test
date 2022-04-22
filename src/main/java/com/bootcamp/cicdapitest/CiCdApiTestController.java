@@ -22,7 +22,7 @@ public class CiCdApiTestController {
         return Mono.just(
                 ResponseEntity.ok()
                         .contentType(MediaType.APPLICATION_JSON)
-                        .body(Flux.just("Hola"))
+                        .body(Flux.just("Hola, Roberto"))
         );
     }
 
